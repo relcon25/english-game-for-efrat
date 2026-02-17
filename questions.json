@@ -1,0 +1,702 @@
+[
+    {
+        "id": "q1",
+        "sentence": "My cousin is _________ Tel-Aviv.",
+        "options": [
+            "usually",
+            "magazine",
+            "way",
+            "from"
+        ],
+        "correctIndex": 3,
+        "explainHe": "from = מ-. המשפט: בן הדוד שלי מתל אביב.",
+        "whyNotHe": "usually=בדרך כלל; magazine=מגזין; way=דרך.",
+        "imageDataUrl": ""
+    },
+    {
+        "id": "q2",
+        "sentence": "My dad is very __________, he can help you.",
+        "options": [
+            "strong",
+            "village",
+            "recipe",
+            "enjoy"
+        ],
+        "correctIndex": 0,
+        "explainHe": "strong = חזק. אבא שלי מאוד חזק, הוא יכול לעזור לך.",
+        "whyNotHe": "village=כפר; recipe=מתכון; enjoy=ליהנות.",
+        "imageDataUrl": ""
+    },
+    {
+        "id": "q3",
+        "sentence": "It is raining __________.",
+        "options": [
+            "again",
+            "way",
+            "parents",
+            "library"
+        ],
+        "correctIndex": 0,
+        "explainHe": "again = שוב. יורד גשם שוב.",
+        "whyNotHe": "way=דרך; parents=הורים; library=ספרייה.",
+        "imageDataUrl": ""
+    },
+    {
+        "id": "q4",
+        "sentence": "תרגם: empty",
+        "options": [
+            "ארמון\\قصر",
+            "לא\\لا",
+            "ללא\\بِدون, غَيْر",
+            "ריק\\فارِغ"
+        ],
+        "correctIndex": 3,
+        "explainHe": "empty = ריק.",
+        "whyNotHe": "ארמון=palace; לא=no; ללא=without.",
+        "imageDataUrl": ""
+    },
+    {
+        "id": "q5",
+        "sentence": "My sister is happy, _________ she has a birthday.",
+        "options": [
+            "because",
+            "ground",
+            "all",
+            "text"
+        ],
+        "correctIndex": 0,
+        "explainHe": "because = משום ש/כי. אחותי שמחה כי יש לה יום הולדת.",
+        "whyNotHe": "ground=אדמה; all=הכל; text=טקסט.",
+        "imageDataUrl": ""
+    },
+    {
+        "id": "q6",
+        "sentence": "Gal ___________ visits his grandma.",
+        "options": [
+            "usually",
+            "from",
+            "page",
+            "lost"
+        ],
+        "correctIndex": 0,
+        "explainHe": "usually = בדרך כלל. גל בדרך כלל מבקר את סבתא שלו.",
+        "whyNotHe": "from=מ-; page=עמוד; lost=איבד.",
+        "imageDataUrl": ""
+    },
+    {
+        "id": "q7",
+        "sentence": "איך כותבים באנגלית: כותב\\كاتِب",
+        "options": [
+            "riter",
+            "righter",
+            "writer",
+            "writee"
+        ],
+        "correctIndex": 2,
+        "explainHe": "כותב = writer.",
+        "whyNotHe": "שאר האפשרויות הן שגיאות כתיב.",
+        "imageDataUrl": ""
+    },
+    {
+        "id": "q8",
+        "sentence": "Your room is too ____________.",
+        "options": [
+            "dark",
+            "band",
+            "all",
+            "ground"
+        ],
+        "correctIndex": 0,
+        "explainHe": "dark = חשוך. החדר שלך חשוך מדי.",
+        "whyNotHe": "band=להקה; all=הכל; ground=אדמה.",
+        "imageDataUrl": ""
+    },
+    {
+        "id": "q9",
+        "sentence": "Our _______________ is too noisy.",
+        "options": [
+            "neighbor",
+            "also",
+            "usually",
+            "page"
+        ],
+        "correctIndex": 0,
+        "explainHe": "neighbor = שכן. השכן שלנו רועש מדי.",
+        "whyNotHe": "also=גם; usually=בדרך כלל; page=עמוד.",
+        "imageDataUrl": ""
+    },
+    {
+        "id": "q10",
+        "sentence": "Show me the best _________ to your home.",
+        "options": [
+            "all",
+            "way",
+            "also",
+            "from"
+        ],
+        "correctIndex": 1,
+        "explainHe": "way = דרך. תראה לי את הדרך הכי טובה לבית שלך.",
+        "whyNotHe": "all=הכל; also=גם; from=מ-.",
+        "imageDataUrl": ""
+    },
+    {
+        "id": "q11",
+        "sentence": "Can you give me a good ___________ for a soup?",
+        "options": [
+            "important",
+            "recipe",
+            "village",
+            "heavy"
+        ],
+        "correctIndex": 1,
+        "explainHe": "recipe = מתכון. אתה יכול לתת לי מתכון טוב למרק?",
+        "whyNotHe": "important=חשוב; village=כפר; heavy=כבד.",
+        "imageDataUrl": ""
+    },
+    {
+        "id": "q12",
+        "sentence": "Your bag is too _________.",
+        "options": [
+            "village",
+            "heavy",
+            "go",
+            "move"
+        ],
+        "correctIndex": 1,
+        "explainHe": "heavy = כבד. התיק שלך כבד מדי.",
+        "whyNotHe": "village=כפר; go=ללכת; move=לזוז.",
+        "imageDataUrl": ""
+    },
+    {
+        "id": "q13",
+        "sentence": "I want to buy a _______________ present.",
+        "options": [
+            "special",
+            "usually",
+            "all",
+            "page"
+        ],
+        "correctIndex": 0,
+        "explainHe": "special = מיוחד. אני רוצה לקנות מתנה מיוחדת.",
+        "whyNotHe": "usually=בדרך כלל; all=הכל; page=עמוד.",
+        "imageDataUrl": ""
+    },
+    {
+        "id": "q14",
+        "sentence": "איך כותבים באנגלית: משום ש\\لأن",
+        "options": [
+            "bicose",
+            "bicause",
+            "becase",
+            "because"
+        ],
+        "correctIndex": 3,
+        "explainHe": "משום ש = because.",
+        "whyNotHe": "שאר האפשרויות הן שגיאות כתיב.",
+        "imageDataUrl": ""
+    },
+    {
+        "id": "q15",
+        "sentence": "I __________ my kitten.",
+        "options": [
+            "lost",
+            "page",
+            "also",
+            "from"
+        ],
+        "correctIndex": 0,
+        "explainHe": "lost = איבדתי. איבדתי את החתלתול שלי.",
+        "whyNotHe": "page=עמוד; also=גם; from=מ-.",
+        "imageDataUrl": ""
+    },
+    {
+        "id": "q16",
+        "sentence": "איך כותבים באנגלית: בדרך כלל\\عادَةً",
+        "options": [
+            "usally",
+            "usually",
+            "ysually",
+            "usuly"
+        ],
+        "correctIndex": 1,
+        "explainHe": "בדרך כלל = usually.",
+        "whyNotHe": "שאר האפשרויות הן שגיאות כתיב.",
+        "imageDataUrl": ""
+    },
+    {
+        "id": "q17",
+        "sentence": "איך כותבים באנגלית: קשה\\صعب",
+        "options": [
+            "difficult",
+            "dificalt",
+            "dificult",
+            "dificcult"
+        ],
+        "correctIndex": 0,
+        "explainHe": "קשה = difficult.",
+        "whyNotHe": "שאר האפשרויות הן שגיאות כתיב.",
+        "imageDataUrl": ""
+    },
+    {
+        "id": "q18",
+        "sentence": "איך כותבים באנגלית: יפה\\جَميل/ة",
+        "options": [
+            "biutiful",
+            "beutiful",
+            "beautiful",
+            "bautiful"
+        ],
+        "correctIndex": 2,
+        "explainHe": "יפה = beautiful.",
+        "whyNotHe": "שאר האפשרויות הן שגיאות כתיב.",
+        "imageDataUrl": ""
+    },
+    {
+        "id": "q19",
+        "sentence": "Open your book on ________ sixty three.",
+        "options": [
+            "lost",
+            "ground",
+            "page",
+            "magazine"
+        ],
+        "correctIndex": 2,
+        "explainHe": "page = עמוד. פתח את הספר בעמוד שישים ושלוש.",
+        "whyNotHe": "lost=איבד; ground=אדמה; magazine=מגזין.",
+        "imageDataUrl": ""
+    },
+    {
+        "id": "q20",
+        "sentence": "I read an _____________ story.",
+        "options": [
+            "cool",
+            "interesting",
+            "lost",
+            "way"
+        ],
+        "correctIndex": 1,
+        "explainHe": "interesting = מעניין. קראתי סיפור מעניין.",
+        "whyNotHe": "cool=מגניב; lost=אבוד; way=דרך.",
+        "imageDataUrl": ""
+    },
+    {
+        "id": "q21",
+        "sentence": "There is a new city on that __________.",
+        "options": [
+            "lost",
+            "ground",
+            "outside",
+            "band"
+        ],
+        "correctIndex": 1,
+        "explainHe": "ground = אדמה. יש עיר חדשה על האדמה הזו.",
+        "whyNotHe": "lost=אבוד; outside=בחוץ; band=להקה.",
+        "imageDataUrl": ""
+    },
+    {
+        "id": "q22",
+        "sentence": "איך כותבים באנגלית: ביחד\\مَعاً",
+        "options": [
+            "togeder",
+            "together",
+            "togther",
+            "togeter"
+        ],
+        "correctIndex": 1,
+        "explainHe": "ביחד = together.",
+        "whyNotHe": "שאר האפשרויות הן שגיאות כתיב.",
+        "imageDataUrl": ""
+    },
+    {
+        "id": "q23",
+        "sentence": "איך כותבים באנגלית: לא\\لا",
+        "options": [
+            "doesn`t",
+            "dasen`t",
+            "dosn`t",
+            "deosn`t"
+        ],
+        "correctIndex": 0,
+        "explainHe": "לא (שלילה) = doesn't.",
+        "whyNotHe": "שאר האפשרויות הן שגיאות כתיב.",
+        "imageDataUrl": ""
+    },
+    {
+        "id": "q24",
+        "sentence": "איך כותבים באנגלית: שכן\\جار",
+        "options": [
+            "neighbor",
+            "neyber",
+            "neihbor",
+            "neghboar"
+        ],
+        "correctIndex": 0,
+        "explainHe": "שכן = neighbor.",
+        "whyNotHe": "שאר האפשרויות הן שגיאות כתיב.",
+        "imageDataUrl": ""
+    },
+    {
+        "id": "q25",
+        "sentence": "תרגם: afraid",
+        "options": [
+            "משרת\\خادم",
+            "עסוק\\مشغول",
+            "פוחד\\خائِف",
+            "ריק\\فارِغ"
+        ],
+        "correctIndex": 2,
+        "explainHe": "afraid = פוחד.",
+        "whyNotHe": "משרת=servant; עסוק=busy; ריק=empty.",
+        "imageDataUrl": ""
+    },
+    {
+        "id": "q26",
+        "sentence": "תרגם: without",
+        "options": [
+            "משרת\\خادم",
+            "ללא\\بِدون, غَيْر",
+            "עסוק\\مشغول",
+            "פינה\\زاوية"
+        ],
+        "correctIndex": 1,
+        "explainHe": "without = ללא.",
+        "whyNotHe": "משרת=servant; עסוק=busy; פינה=corner.",
+        "imageDataUrl": ""
+    },
+    {
+        "id": "q27",
+        "sentence": "Your new bike is __________.",
+        "options": [
+            "watermelon",
+            "page",
+            "outside",
+            "also"
+        ],
+        "correctIndex": 2,
+        "explainHe": "outside = בחוץ. האופניים החדשים שלך בחוץ.",
+        "whyNotHe": "watermelon=אבטיח; page=עמוד; also=גם.",
+        "imageDataUrl": ""
+    },
+    {
+        "id": "q28",
+        "sentence": "My dad likes to read a ____________ every week.",
+        "options": [
+            "lost",
+            "magazine",
+            "outside",
+            "way"
+        ],
+        "correctIndex": 1,
+        "explainHe": "magazine = מגזין. אבא שלי אוהב לקרוא מגזין כל שבוע.",
+        "whyNotHe": "lost=איבד; outside=בחוץ; way=דרך.",
+        "imageDataUrl": ""
+    },
+    {
+        "id": "q29",
+        "sentence": "I want to eat a soup and _________ fries.",
+        "options": [
+            "also",
+            "page",
+            "band",
+            "text"
+        ],
+        "correctIndex": 0,
+        "explainHe": "also = גם. אני רוצה לאכול מרק וגם צ'יפס.",
+        "whyNotHe": "page=עמוד; band=להקה; text=טקסט.",
+        "imageDataUrl": ""
+    },
+    {
+        "id": "q30",
+        "sentence": "My dog sleeps __________, and not with me.",
+        "options": [
+            "library",
+            "because",
+            "alone",
+            "shop"
+        ],
+        "correctIndex": 2,
+        "explainHe": "alone = לבד. הכלב שלי ישן לבד, ולא איתי.",
+        "whyNotHe": "library=ספרייה; because=כי; shop=חנות.",
+        "imageDataUrl": ""
+    },
+    {
+        "id": "q31",
+        "sentence": "My ____________ mom is only 40 years old.",
+        "options": [
+            "beautiful",
+            "also",
+            "page",
+            "all"
+        ],
+        "correctIndex": 0,
+        "explainHe": "beautiful = יפה. אמא היפה שלי בת 40 בלבד.",
+        "whyNotHe": "also=גם; page=עמוד; all=הכל.",
+        "imageDataUrl": ""
+    },
+    {
+        "id": "q32",
+        "sentence": "תרגם: bottle",
+        "options": [
+            "קסם\\سحر",
+            "בקבוק\\زُجاجَة/قَنينة",
+            "פינה\\زاوية",
+            "ריק\\فارِغ"
+        ],
+        "correctIndex": 1,
+        "explainHe": "bottle = בקבוק.",
+        "whyNotHe": "קסם=magic; פינה=corner; ריק=empty.",
+        "imageDataUrl": ""
+    },
+    {
+        "id": "q33",
+        "sentence": "My ____________ take care of me.",
+        "options": [
+            "parents",
+            "way",
+            "alone",
+            "all"
+        ],
+        "correctIndex": 0,
+        "explainHe": "parents = הורים. ההורים שלי דואגים לי.",
+        "whyNotHe": "way=דרך; alone=לבד; all=הכל.",
+        "imageDataUrl": ""
+    },
+    {
+        "id": "q34",
+        "sentence": "My mom wants to live in a _________.",
+        "options": [
+            "village",
+            "strong",
+            "recipe",
+            "went"
+        ],
+        "correctIndex": 0,
+        "explainHe": "village = כפר. אמא שלי רוצה לגור בכפר.",
+        "whyNotHe": "strong=חזק; recipe=מתכון; went=הלך.",
+        "imageDataUrl": ""
+    },
+    {
+        "id": "q35",
+        "sentence": "איך כותבים באנגלית: כל דבר\\كُل شيء",
+        "options": [
+            "averything",
+            "everything",
+            "evriting",
+            "ebryting"
+        ],
+        "correctIndex": 1,
+        "explainHe": "כל דבר = everything.",
+        "whyNotHe": "שאר האפשרויות הן שגיאות כתיב.",
+        "imageDataUrl": ""
+    },
+    {
+        "id": "q36",
+        "sentence": "איך כותבים באנגלית: מתכון\\وَصفَة",
+        "options": [
+            "resipe",
+            "reicipe",
+            "recipe",
+            "racipe"
+        ],
+        "correctIndex": 2,
+        "explainHe": "מתכון = recipe.",
+        "whyNotHe": "שאר האפשרויות הן שגיאות כתיב.",
+        "imageDataUrl": ""
+    },
+    {
+        "id": "q37",
+        "sentence": "Do you have a favourite ___________?",
+        "options": [
+            "band",
+            "lost",
+            "usually",
+            "alone"
+        ],
+        "correctIndex": 0,
+        "explainHe": "band = להקה. יש לך להקה אהובה?",
+        "whyNotHe": "lost=איבד; usually=בדרך כלל; alone=לבד.",
+        "imageDataUrl": ""
+    },
+    {
+        "id": "q38",
+        "sentence": "It's a __________ day, put on a jacket!",
+        "options": [
+            "cool",
+            "page",
+            "from",
+            "shop"
+        ],
+        "correctIndex": 0,
+        "explainHe": "cool = קריר. זה יום קריר, תלבש ז'קט!",
+        "whyNotHe": "page=עמוד; from=מ-; shop=חנות.",
+        "imageDataUrl": ""
+    },
+    {
+        "id": "q39",
+        "sentence": "There are new books in the _________________.",
+        "options": [
+            "also",
+            "page",
+            "library",
+            "alone"
+        ],
+        "correctIndex": 2,
+        "explainHe": "library = ספרייה. יש ספרים חדשים בספרייה.",
+        "whyNotHe": "also=גם; page=עמוד; alone=לבד.",
+        "imageDataUrl": ""
+    },
+    {
+        "id": "q40",
+        "sentence": "איך כותבים באנגלית: ספרייה\\مَكتَبة",
+        "options": [
+            "librury",
+            "librery",
+            "liberary",
+            "library"
+        ],
+        "correctIndex": 3,
+        "explainHe": "ספרייה = library.",
+        "whyNotHe": "שאר האפשרויות הן שגיאות כתיב.",
+        "imageDataUrl": ""
+    },
+    {
+        "id": "q41",
+        "sentence": "איך כותבים באנגלית: מעניין\\مُثير للإهتمام",
+        "options": [
+            "interesting",
+            "intresting",
+            "intrsting",
+            "enteresting"
+        ],
+        "correctIndex": 0,
+        "explainHe": "מעניין = interesting.",
+        "whyNotHe": "שאר האפשרויות הן שגיאות כתיב.",
+        "imageDataUrl": ""
+    },
+    {
+        "id": "q42",
+        "sentence": "Snir likes to eat a ______________.",
+        "options": [
+            "lost",
+            "from",
+            "watermelon",
+            "page"
+        ],
+        "correctIndex": 2,
+        "explainHe": "watermelon = אבטיח. סניר אוהב לאכול אבטיח.",
+        "whyNotHe": "lost=איבד; from=מ-; page=עמוד.",
+        "imageDataUrl": ""
+    },
+    {
+        "id": "q43",
+        "sentence": "Why are you so ___________ today?",
+        "options": [
+            "quiet",
+            "parents",
+            "library",
+            "text"
+        ],
+        "correctIndex": 0,
+        "explainHe": "quiet = שקט. למה אתה כל כך שקט היום?",
+        "whyNotHe": "parents=הורים; library=ספרייה; text=טקסט.",
+        "imageDataUrl": ""
+    },
+    {
+        "id": "q44",
+        "sentence": "When do you open your ___________?",
+        "options": [
+            "store",
+            "all",
+            "also",
+            "cool"
+        ],
+        "correctIndex": 0,
+        "explainHe": "store = חנות. מתי אתה פותח את החנות שלך?",
+        "whyNotHe": "all=הכל; also=גם; cool=קריר.",
+        "imageDataUrl": ""
+    },
+    {
+        "id": "q45",
+        "sentence": "איך כותבים באנגלית: כסף\\مال",
+        "options": [
+            "many",
+            "money",
+            "mony",
+            "monay"
+        ],
+        "correctIndex": 1,
+        "explainHe": "כסף = money.",
+        "whyNotHe": "many=הרבה (מילה אחרת); שאר האפשרויות הן שגיאות כתיב.",
+        "imageDataUrl": ""
+    },
+    {
+        "id": "q46",
+        "sentence": "The _______________ of that story is an old man.",
+        "options": [
+            "parents",
+            "writer",
+            "library",
+            "text"
+        ],
+        "correctIndex": 1,
+        "explainHe": "writer = כותב/סופר. הכותב של הסיפור הזה הוא איש זקן.",
+        "whyNotHe": "parents=הורים; library=ספרייה; text=טקסט.",
+        "imageDataUrl": ""
+    },
+    {
+        "id": "q47",
+        "sentence": "איך כותבים באנגלית: מיוחד\\مُمَيَز",
+        "options": [
+            "speshel",
+            "cpecial",
+            "spacial",
+            "special"
+        ],
+        "correctIndex": 3,
+        "explainHe": "מיוחד = special.",
+        "whyNotHe": "שאר האפשרויות הן שגיאות כתיב.",
+        "imageDataUrl": ""
+    },
+    {
+        "id": "q48",
+        "sentence": "The children read all the _____________.",
+        "options": [
+            "lost",
+            "also",
+            "text",
+            "again"
+        ],
+        "correctIndex": 2,
+        "explainHe": "text = טקסט. הילדים קראו את כל הטקסט.",
+        "whyNotHe": "lost=איבד; also=גם; again=שוב.",
+        "imageDataUrl": ""
+    },
+    {
+        "id": "q49",
+        "sentence": "איך כותבים באנגלית: אדמה\\أَرض",
+        "options": [
+            "grownd",
+            "ground",
+            "gruond",
+            "grand"
+        ],
+        "correctIndex": 1,
+        "explainHe": "אדמה = ground.",
+        "whyNotHe": "שאר האפשרויות הן שגיאות כתיב; grand=גדול.",
+        "imageDataUrl": ""
+    },
+    {
+        "id": "q50",
+        "sentence": "איך כותבים באנגלית: שקט\\هدوء",
+        "options": [
+            "kwiet",
+            "quiet",
+            "kuiet",
+            "queit"
+        ],
+        "correctIndex": 1,
+        "explainHe": "שקט = quiet.",
+        "whyNotHe": "שאר האפשרויות הן שגיאות כתיב.",
+        "imageDataUrl": ""
+    }
+]
