@@ -789,6 +789,7 @@
             <div class="stats-row">
               <span id="progressText">Question 1/1</span>
               <span>Score: <span id="scoreText">0</span></span>
+              <span>Best: <span id="bestScoreText">0</span></span>
               <span id="combo-pill" class="combo-meter">Combo x<span id="combo-count">0</span>!</span>
             </div>
             <div class="boss-label">⚠️ BOSS LEVEL ⚠️</div>
@@ -848,6 +849,10 @@
             <div class="stat-val" id="endQuestions">0</div>
             <div class="stat-lbl">Completed</div>
           </div>
+          <div class="stat-card">
+            <div class="stat-val" id="endBestScore">0</div>
+            <div class="stat-lbl">Best Score</div>
+          </div>
         </div>
 
         <div class="end-actions">
@@ -905,15 +910,20 @@
     /** @type {Question[]} */
     let questions = [];
 
-    async function loadQuestions() {
+    async function loadQuestions(filename = 'questions.json') {
       try {
-        const resp = await fetch('questions.json');
+        state.currentFilename = filename;
+        const resp = await fetch(`${filename}?t=${Date.now()}`);
         questions = await resp.json();
         shuffleArray(questions);
+
+        // Load best score for this file
+        const savedBest = localStorage.getItem(`bestScore_${filename}`);
+        state.bestScore = savedBest ? parseInt(savedBest, 10) : 0;
       } catch (e) {
-        console.error('Failed to load questions.json:', e);
+        console.error(`Failed to load ${filename}:`, e);
         questions = [];
-        showToast("Failed to load questions.json", "error");
+        showToast(`Failed to load ${filename}`, "error");
       }
     }
 
@@ -943,8 +953,10 @@
       // FIX: explicit
       shuffledCorrect: 0,
 
-      // for scoring UI
-      lastPoints: null
+      // Scoring
+      lastPoints: null,
+      bestScore: 0,
+      currentFilename: ''
     };
 
     // Leveling Logic
@@ -1084,6 +1096,7 @@
       });
 
       btnNext.disabled = !state.answered;
+      document.getElementById("bestScoreText").textContent = String(state.bestScore);
     }
 
     // FIX: timer uses real dt (performance.now), freeze pauses correctly, timeout doesn’t crash
@@ -1211,6 +1224,12 @@
         }
         state.level = newLevel;
 
+        if (state.score > state.bestScore) {
+          state.bestScore = state.score;
+          localStorage.setItem(`bestScore_${state.currentFilename}`, state.bestScore);
+          document.getElementById("bestScoreText").textContent = String(state.bestScore);
+        }
+
         // FIX: confetti origin safe on timeout (no event)
         if (e?.target?.getBoundingClientRect) {
           const rect = e.target.getBoundingClientRect();
@@ -1278,6 +1297,7 @@
 
       document.getElementById("endScore").textContent = state.score;
       document.getElementById("endXP").textContent = state.xp;
+      document.getElementById("endBestScore").textContent = state.bestScore;
       document.getElementById("endAccuracy").textContent = `${accuracy}%`;
       document.getElementById("endQuestions").textContent = questions.length;
 
