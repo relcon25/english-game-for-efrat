@@ -1,0 +1,18 @@
+{
+  "name": "english-game",
+  "version": "1.0.0",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve . -l 3000",
+    "build": "rm -rf dist && mkdir -p dist && cp index.html questions.json simple_vocabulary.json manifest.json sw.js *.png dist/ && echo '✅ Created static build in dist/'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-plugin-html": "^8.1.4"
+  }
+}

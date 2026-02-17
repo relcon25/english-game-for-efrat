@@ -910,7 +910,7 @@
     /** @type {Question[]} */
     let questions = [];
 
-    async function loadQuestions(filename = 'questions.json') {
+    async function loadQuestions(filename = 'simple_vocabulary.json') {
       try {
         state.currentFilename = filename;
         const resp = await fetch(`${filename}?t=${Date.now()}`);
